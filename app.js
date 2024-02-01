@@ -27,3 +27,10 @@ function botonPrompt(){
 function botonAlerta(){
     alert("Yo amo JS");
 };
+
+function botonSuma(){
+    let respuestaUsuario1 = parseInt(prompt("elige un número"));
+    let respuestaUsuario2 = parseInt(prompt("elige un segundo número"));
+    alert(`la suma de ambos dígitos es: ${respuestaUsuario1+respuestaUsuario2}`);
+
+}
