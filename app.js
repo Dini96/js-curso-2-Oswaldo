@@ -11,8 +11,19 @@ Luego, muestra una alerta con el mensaje concatenando la respuesta con el texto:
 5. Al hacer clic en el botón "suma", pide 2 números y muestra el resultado de la suma en una alerta.
 */
 let contenido = document.querySelector("h1");
-contenido.innerHTML = "Hora del desafío"
+contenido.innerHTML = "Hora del desafío";
+
 
 function botonConsola(){
     console.log("el botón fue clicado")
-}
+};
+
+function botonPrompt(){
+    console.log("se hace la pregunta")
+    let respuestaUsuario = prompt("Escribe el nombre de una ciudad de Brasil");
+    alert(`Estuve en ${respuestaUsuario} y me acorde de ti`);
+};
+
+function botonAlerta(){
+    alert("Yo amo JS");
+};
