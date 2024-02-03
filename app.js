@@ -32,5 +32,49 @@ function botonSuma(){
     let respuestaUsuario1 = parseInt(prompt("elige un número"));
     let respuestaUsuario2 = parseInt(prompt("elige un segundo número"));
     alert(`la suma de ambos dígitos es: ${respuestaUsuario1+respuestaUsuario2}`);
+};
 
-}
+
+/*
+practica sobre funciones
+
+Crear una función que muestre "¡Hola, mundo!" en la consola.
+*/
+function saludo(){
+    console.log("¡hola mundo!")
+};
+saludo();
+
+
+//Crear una función que reciba un nombre como parámetro y muestre "¡Hola, [nombre]!" en la consola.
+
+function nombreSaludo(nombre){
+    console.log(`¡Hola, ${nombre}!`);
+};
+
+nombreSaludo("Oswaldo");
+
+//Crear una función que reciba un número como parámetro y devuelva el doble de ese número.
+function dobleNumero(numero){
+    return numero*2;
+};
+console.log(dobleNumero(2));
+
+//Crear una función que reciba tres números como parámetros y devuelva su promedio.
+function promedioTresNumeros(x1,x2,x3){
+    return `el promedio es ${(x1+x2+x3)/3}`;
+};
+console.log(promedioTresNumeros(4,5,6));
+
+//Crear una función que reciba dos números como parámetros y devuelva el mayor de ellos.
+
+function evaluaMayor(x,y){
+    return Math.max(x,y);
+};
+console.log(evaluaMayor(4,10));
+
+//Crear una función que reciba un número como parámetro y devuelva el resultado de multiplicar ese número por sí mismo.
+function cuadrado(x){
+    return x*x;
+};
+console.log(cuadrado(10));
